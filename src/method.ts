@@ -20,7 +20,7 @@ class Shop {
     }
 
     // another method
-    totalSold (name:string, price:number) {
+    totalSold () {
         const total = this.soldItems.reduce((acc, item) => acc+item.price, 0)
         return total
     }
